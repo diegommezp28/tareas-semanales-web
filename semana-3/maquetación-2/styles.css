@@ -1,0 +1,73 @@
+.bg-marron{
+    background-color: maroon !important;
+}
+
+.bg-orange{
+    background-color: orange !important ;
+}
+
+.bg-pink{
+    background-color: pink !important   ;
+}
+
+.bg-light{
+    background-color: gainsboro !important;
+}
+
+.bg-blue{
+    background-color: deepskyblue !important;
+}
+.bg-fucsia{
+    background-color: fuchsia !important;
+}
+
+.white{
+    color: white !important
+}
+
+.height-15{
+    height: 15vh;
+}
+
+.height-10{
+    height: 10vh;
+}
+
+.height-75{
+    height: 75vh;
+}
+
+.height-content{
+    height: 31vh;
+
+}
+
+.m-center{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+/* 
+Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) { 
+    .height-content{
+        height: 13.5vh;
+    
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .height-content{
+        height: 17vh;
+    
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .height-content{
+        height: 31vh;
+    
+    }
+}

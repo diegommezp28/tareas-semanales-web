@@ -3,35 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
 
     <!-- Optional theme -->
-    <!-- <link
+    <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
       integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
       crossorigin="anonymous"
-    /> -->
+    />
 
     <!-- Latest compiled and minified JavaScript -->
     <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
     ></script>
-    <link href="./styles.css" />
-    <title>Document</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <link href="./styles.css" rel="stylesheet" />
+    <title>Maquetación 2</title>
   </head>
   <body>
-    <div>
-      <p>Hola mundo</p>
-      <button type="button" class="btn btn-primary">Primary</button>
+    <div class="container-fluid">
+      <div class="row bg-marron">
+        <div class="col-12 white m-center height-15">
+          <h1 class="text-center">Banner</h1>
+        </div>
+      </div>
+      <div class="row height-75">
+        <div class="d-none d-md-block col-md-2 col-lg-4 bg-orange">
+          <h3 class="text-center">Left Menu</h3>
+        </div>
+        <div class="col-md-10 col-lg-8">
+          <div class="row">
+            <div class="col-12 bg-pink">
+              <h3 class="text-center">Top Menu</h3>
+            </div>
+            <div class="col-12 col-lg-6 bg-light height-content">
+              <h3 class="text-center">Main content A</h3>
+            </div>
+            <div class="col-12 col-lg-6 bg-light height-content">
+              <h3 class="text-center">Main content B</h3>
+            </div>
+            <!-- Fotos -->
+            <div class="col-6 col-md-4 col-lg-2 bg-fucsia">
+              <h3 class="text-center">Foto 1</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 bg-blue">
+              <h3 class="text-center">Foto 2</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 bg-fucsia">
+              <h3 class="text-center">Foto 3</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 bg-blue">
+              <h3 class="text-center">Foto 4</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 bg-fucsia">
+              <h3 class="text-center">Foto 5</h3>
+            </div>
+
+            <!-- Second half -->
+            <div class="col-12 bg-light height-content">
+              <h3 class="text-center">Main content C</h3>
+            </div>
+            <!-- Fotos 2 -->
+            <div class="col-6 col-md-4 col-lg-2 bg-blue">
+              <h3 class="text-center">Foto 6</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 bg-fucsia">
+              <h3 class="text-center">Foto 7</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-4 bg-blue">
+              <h3 class="text-center">Foto 8</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 bg-fucsia">
+              <h3 class="text-center">Foto 9</h3>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2 bg-blue">
+              <h3 class="text-center">Foto 10</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row height-10">
+        <footer class="col-12 bg-marron white">
+          <h3 class="text-center">Footer</h3>
+        </footer>
+      </div>
     </div>
   </body>
 </html>
