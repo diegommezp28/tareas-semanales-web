@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-root{
+  min-width: 350px;
+  width: 350px;
+  min-height: 450px;
+  margin: 30px;
+}
+
+.card-root-image{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-height: 250px;
+
+  overflow-y: hidden;
+}
+
+.description{
+  padding: 8%;
+}
