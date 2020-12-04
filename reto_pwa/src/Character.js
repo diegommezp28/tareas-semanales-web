@@ -8,7 +8,7 @@ function Character({ propPersonaje, ...rest }) {
     // console.log(`${personaje.thumbnail.path}.${personaje.thumbnail.extension}`);
 
     return (
-        <Card className='card-root'>
+        <Paper className='card-root' elevation={5}>
             <img
 
                 className='card-root-image'
@@ -22,7 +22,7 @@ function Character({ propPersonaje, ...rest }) {
                 </p>
 
             </div>
-        </Card>
+        </Paper>
     );
 }
 
